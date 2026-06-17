@@ -49,6 +49,7 @@ Player vs Player (local) — two humans share the same computer. After every sho
 
 Mine mechanic — during setup each player secretly plants 3 mines on empty water cells on their own board. When the opponent shoots a mined cell, a MINE_TRIGGER result fires: the attacking player gets hit on 3 random tiles as a punishment for hitting the hidden Mine.
 
+---
 
 ## Implementation overview
 
@@ -104,29 +105,6 @@ Alexis — Setting up the frontend/setting up the UI.
 Matteo — Setting up and developing the bot AI logic.
 
 Marco — Making sure that the player's ships and board are difficult to be seen by the other player.
-
----
-
-## Repository structure
-
-├── .gitignore
-├── README.md
-├── pom.xml
-└── src/
-    └── main/
-        └── java/
-            └── com/example/battleship/
-                ├── Main.java          Entry point
-                ├── Theme.java         Design system (colours, fonts, factories)
-                ├── MenuFrame.java     Splash + mode-selection UI
-                ├── SetupFrame.java    Ship & mine placement UI
-                ├── GameFrame.java     Main game window (PvP + PvBot)
-                ├── GameMode.java      Enum: PLAYER_VS_PLAYER / PLAYER_VS_BOT
-                ├── Board.java         10×10 grid, ship/mine placement, shooting
-                ├── BotAI.java         Hunt/target AI
-                ├── Ship.java          Ship model
-                ├── Cell.java          Cell model
-                └── ShotResult.java    Shot outcome enum
 
 ---
 
