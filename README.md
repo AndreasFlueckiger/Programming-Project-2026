@@ -79,6 +79,8 @@ No third-party libraries are used. The project uses only the Java 21 standard li
 
 **Pattern matching in switch expressions (Java 21)** — ShotResult cases are handled with Java 21 switch expressions throughout GameFrame, making the result-to-visual mapping compact and exhaustive without nested if/else chains.
 
+---
+
 ## Workload distribution
 
 
@@ -88,6 +90,8 @@ No third-party libraries are used. The project uses only the Java 21 standard li
 **Game screen UI (GameFrame)** -	Alexis, Matteo, Marco
 **Design system (Theme)** -	Alexis, Matteo, Marco
 **Integration, testing, and README** -	Alexis, Matteo, Marco
+
+---
 
 ## How git was used
 We used GitHub at the end of the project for distribution purposes, because of the problems we had last year in regards to communication. We worked on VS Code. Then we uploaded all the work to GitHub to test it on different platforms and to share it with the professor.
@@ -100,6 +104,8 @@ Alexis — Setting up the frontend/setting up the UI.
 Matteo — Setting up and developing the bot AI logic.
 
 Marco — Making sure that the player's ships and board are difficult to be seen by the other player.
+
+---
 
 ## Repository structure
 
@@ -121,6 +127,8 @@ Marco — Making sure that the player's ships and board are difficult to be seen
                 ├── Ship.java          Ship model
                 ├── Cell.java          Cell model
                 └── ShotResult.java    Shot outcome enum
+
+---
 
 ## External references
 No external libraries, tutorials, or third-party source code were used. 
